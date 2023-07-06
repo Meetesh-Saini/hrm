@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 from flask import current_app, g
-from server import app
+from app import app
 
 class PermissionWrapper:
     def __init__(self, db_url):
